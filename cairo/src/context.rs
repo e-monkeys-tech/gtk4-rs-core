@@ -215,6 +215,48 @@ impl Context {
     pub fn set_source_rgb(&self, red: f64, green: f64, blue: f64) {
         unsafe { ffi::cairo_set_source_rgb(self.0.as_ptr(), red, green, blue) }
     }
+    
+    #[doc(alias = "cairo_set_source_black_color_rgb")]
+    pub fn set_source_black_color_rgb(&self) {
+        unsafe {
+            ffi::cairo_set_source_rgb(self.0.as_ptr(), 0.0/255.0, 0.0/255.0, 0.0/255.0)
+        }
+    }
+
+    #[doc(alias = "cairo_set_source_plum_purple_color_rgb")]
+    pub fn set_source_plum_purple_color_rgb(&self) {
+        unsafe {
+            ffi::cairo_set_source_rgb(self.0.as_ptr(), 156.0/255.0, 80.0/255.0, 182.0/255.0)
+        }
+    }
+
+    #[doc(alias = "cairo_set_source_cyan_color_rgb")]
+    pub fn set_source_cyan_color_rgb(&self) {
+        unsafe {
+            ffi::cairo_set_source_rgb(self.0.as_ptr(), 0.0/255.0, 255.0/255.0, 255.0/255.0)
+        }
+    }
+
+    #[doc(alias = "cairo_set_source_orange_color_rgb")]
+    pub fn set_source_orange_color_rgb(&self) {
+        unsafe {
+            ffi::cairo_set_source_rgb(self.0.as_ptr(), 255.0/255.0, 165.0/255.0, 0.0/255.0)
+        }
+    }
+
+    #[doc(alias = "cairo_set_source_yellow_color_rgb")]
+    pub fn set_source_yellow_color_rgb(&self) {
+        unsafe {
+            ffi::cairo_set_source_rgb(self.0.as_ptr(), 255.0/255.0, 255.0/255.0, 0.0/255.0)
+        }
+    }
+
+    #[doc(alias = "cairo_set_source_pink_color_rgb")]
+    pub fn set_source_pink_color_rgb(&self) {
+        unsafe {
+            ffi::cairo_set_source_rgb(self.0.as_ptr(), 255.0/255.0, 192.0/255.0, 203.0/255.0)
+        }
+    }
 
     #[doc(alias = "cairo_set_source_rgba")]
     pub fn set_source_rgba(&self, red: f64, green: f64, blue: f64, alpha: f64) {
