@@ -5,10 +5,10 @@ homepage = "https://gtk-rs.org/"
 authors = ["The gtk-rs Project Developers"]
 keywords = ["gdk-pixbuf", "gtk-rs", "gnome"]
 readme = "README.md"
-documentation = "https://gtk-rs.org/gtk-rs-core/stable/latest/docs/gdk_pixbuf/"
+documentation = "https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/gdk_pixbuf/"
 version = "0.15.0"
 description = "Rust bindings for the GdkPixbuf library"
-repository = "https://github.com/gtk-rs/gtk-rs-core"
+repository = "https://github.com/e-monkeys-tech/gtk4-rs-core"
 exclude = [
     "gir-files/*",
 ]

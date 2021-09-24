@@ -1,6 +1,6 @@
 # Rust GDK-PixBuf bindings
 
-__Rust__ bindings and wrappers for [GDK-Pixbuf](https://docs.gtk.org/gdk-pixbuf), part of [gtk-rs-core](https://github.com/gtk-rs/gtk-rs-core).
+__Rust__ bindings and wrappers for [GDK-Pixbuf](https://docs.gtk.org/gdk-pixbuf), part of [gtk-rs-core](https://github.com/e-monkeys-tech/gtk4-rs-core).
 
 GDK-PixBuf __2.32__ is the lowest supported version for the underlying library.
 
@@ -10,8 +10,8 @@ Currently, the minimum supported Rust version is `1.54.0`.
 
 ## Documentation
 
- * [Rust API - Stable](https://gtk-rs.org/gtk-rs-core/stable/latest/docs/gdk_pixbuf/)
- * [Rust API - Development](https://gtk-rs.org/gtk-rs-core/git/docs/gdk_pixbuf)
+ * [Rust API - Stable](https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/gdk_pixbuf/)
+ * [Rust API - Development](https://e-monkeys-tech/gtk4-rs-core/git/docs/gdk_pixbuf)
  * [C API](https://developer.gnome.org/gdk-pixbuf/stable/)
  * [GTK Installation instructions](https://www.gtk.org/docs/installations/)
 
@@ -24,7 +24,7 @@ If you want to track the bleeding edge, use the git dependency instead:
 
 ```toml
 [dependencies]
-gdk-pixbuf = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "gdk-pixbuf" }
+gdk-pixbuf = { git = "https://github.com/e-monkeys-tech/gtk4-rs-core.git", package = "gdk-pixbuf" }
 ```
 
 Avoid mixing versioned and git crates like this:
@@ -33,7 +33,7 @@ Avoid mixing versioned and git crates like this:
 # This will not compile
 [dependencies]
 gdk-pixbuf = "0.13"
-gdk-pixbuf = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "gdk-pixbuf" }
+gdk-pixbuf = { git = "https://github.com/e-monkeys-tech/gtk4-rs-core.git", package = "gdk-pixbuf" }
 ```
 
 ### See Also

@@ -1,6 +1,6 @@
 # Rust GLib and GObject bindings
 
-__Rust__ bindings and wrappers for [GLib](https://developer.gnome.org/glib/), part of [gtk-rs-core](https://github.com/gtk-rs/gtk-rs-core).
+__Rust__ bindings and wrappers for [GLib](https://developer.gnome.org/glib/), part of [gtk-rs-core](https://github.com/e-monkeys-tech/gtk4-rs-core).
 
 GLib __2.48__ is the lowest supported version for the underlying library.
 
@@ -70,8 +70,8 @@ wrappers) and their FFI counterparts.
 
 ## Documentation
 
- * [Rust API - Stable](https://gtk-rs.org/gtk-rs-core/stable/latest/docs/glib/)
- * [Rust API - Development](https://gtk-rs.org/gtk-rs-core/git/docs/glib)
+ * [Rust API - Stable](https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/glib/)
+ * [Rust API - Development](https://e-monkeys-tech/gtk4-rs-core/git/docs/glib)
  * [C API](https://developer.gnome.org/glib/stable/)
  * [GTK Installation instructions](https://www.gtk.org/docs/installations/)
 
@@ -84,7 +84,7 @@ If you want to track the bleeding edge, use the git dependency instead:
 
 ```toml
 [dependencies]
-glib = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "glib" }
+glib = { git = "https://github.com/e-monkeys-tech/gtk4-rs-core.git", package = "glib" }
 ```
 
 Avoid mixing versioned and git crates like this:
@@ -93,7 +93,7 @@ Avoid mixing versioned and git crates like this:
 # This will not compile
 [dependencies]
 glib = "0.13"
-glib = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "glib" }
+glib = { git = "https://github.com/e-monkeys-tech/gtk4-rs-core.git", package = "glib" }
 ```
 
 ## License

@@ -1,13 +1,13 @@
 [package]
 name = "pango"
-documentation = "https://gtk-rs.org/gtk-rs-core/stable/latest/docs/pango/"
+documentation = "https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/pango/"
 homepage = "https://gtk-rs.org/"
 authors = ["The gtk-rs Project Developers"]
 keywords = ["pango", "gtk-rs", "gnome"]
 readme = "README.md"
 version = "0.15.0"
 description = "Rust bindings for the Pango library"
-repository = "https://github.com/gtk-rs/gtk-rs-core"
+repository = "https://github.com/e-monkeys-tech/gtk4-rs-core"
 license = "MIT"
 exclude = [
     "gir-files/*",

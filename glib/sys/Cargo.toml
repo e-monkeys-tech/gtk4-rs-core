@@ -32,7 +32,7 @@ homepage = "http://gtk-rs.org/"
 keywords = ["glib", "ffi", "gtk-rs", "gnome"]
 license = "MIT"
 name = "glib-sys"
-repository = "https://github.com/gtk-rs/gtk-rs-core"
+repository = "https://github.com/e-monkeys-tech/gtk4-rs-core"
 version = "0.15.0"
 edition = "2018"
 [package.metadata.docs.rs]

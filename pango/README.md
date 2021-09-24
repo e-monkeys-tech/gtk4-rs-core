@@ -1,6 +1,6 @@
 # Rust Pango bindings
 
-__Rust__ bindings and wrappers for [Pango](https://docs.gtk.org/Pango/), part of [gtk-rs-core](https://github.com/gtk-rs/gtk-rs-core).
+__Rust__ bindings and wrappers for [Pango](https://docs.gtk.org/Pango/), part of [gtk-rs-core](https://github.com/e-monkeys-tech/gtk4-rs-core).
 
 Pango __1.38__ is the lowest supported version for the underlying library.
 
@@ -10,8 +10,8 @@ Currently, the minimum supported Rust version is `1.54.0`.
 
 ## Documentation
 
- * [Rust API - Stable](https://gtk-rs.org/gtk-rs-core/stable/latest/docs/pango/)
- * [Rust API - Development](https://gtk-rs.org/gtk-rs-core/git/docs/pango)
+ * [Rust API - Stable](https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/pango/)
+ * [Rust API - Development](https://e-monkeys-tech/gtk4-rs-core/git/docs/pango)
  * [C API](https://developer.gnome.org/platform-overview/unstable/tech-pango.html.en)
  * [GTK Installation instructions](https://www.gtk.org/docs/installations/)
 
@@ -24,7 +24,7 @@ If you want to track the bleeding edge, use the git dependency instead:
 
 ```toml
 [dependencies]
-pango = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "pango" }
+pango = { git = "https://github.com/e-monkeys-tech/gtk4-rs-core.git", package = "pango" }
 ```
 
 Avoid mixing versioned and git crates like this:
@@ -33,7 +33,7 @@ Avoid mixing versioned and git crates like this:
 # This will not compile
 [dependencies]
 pango = "0.13"
-pango = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "pango" }
+pango = { git = "https://github.com/e-monkeys-tech/gtk4-rs-core.git", package = "pango" }
 ```
 
 ### See Also

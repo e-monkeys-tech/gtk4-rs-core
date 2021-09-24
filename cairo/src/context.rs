@@ -258,6 +258,20 @@ impl Context {
         }
     }
 
+    #[doc(alias = "cairo_set_source_amaranth_color_rgb")]
+    pub fn set_source_amaranth_color_rgb(&self) {
+        unsafe {
+            ffi::cairo_set_source_rgb(self.0.as_ptr(), 244.0/255.0, 54.0/255.0, 76.0/255.0)
+        }
+    }
+
+    #[doc(alias = "cairo_set_source_antic_gray_color_rgb")]
+    pub fn set_source_antic_gray_color_rgb(&self) {
+        unsafe {
+            ffi::cairo_set_source_rgb(self.0.as_ptr(), 165.0/255.0, 169.0/255.0, 160.0/255.0)
+        }
+    }
+    
     #[doc(alias = "cairo_set_source_rgba")]
     pub fn set_source_rgba(&self, red: f64, green: f64, blue: f64, alpha: f64) {
         unsafe { ffi::cairo_set_source_rgba(self.0.as_ptr(), red, green, blue, alpha) }

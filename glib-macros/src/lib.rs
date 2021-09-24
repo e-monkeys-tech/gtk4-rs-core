@@ -41,8 +41,8 @@ use syn::{parse_macro_input, DeriveInput, LitStr};
 /// environment variable when running your code (either in the code directly or when running the
 /// binary) to either "all" or [`CLONE_MACRO_LOG_DOMAIN`]:
 ///
-/// [`g_debug`]: https://gtk-rs.org/gtk-rs-core/stable/latest/docs/glib/macro.g_debug.html
-/// [`CLONE_MACRO_LOG_DOMAIN`]: https://gtk-rs.org/gtk-rs-core/stable/latest/docs/glib/constant.CLONE_MACRO_LOG_DOMAIN.html
+/// [`g_debug`]: https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/glib/macro.g_debug.html
+/// [`CLONE_MACRO_LOG_DOMAIN`]: https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/glib/constant.CLONE_MACRO_LOG_DOMAIN.html
 ///
 /// ```rust,ignore
 /// use glib::CLONE_MACRO_LOG_DOMAIN;

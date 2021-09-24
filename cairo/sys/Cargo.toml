@@ -6,7 +6,7 @@ homepage = "https://gtk-rs.org/"
 description = "FFI bindings to libcairo"
 version = "0.15.0"
 keywords = ["cairo", "ffi", "gtk-rs", "gnome"]
-repository = "https://github.com/gtk-rs/gtk-rs-core"
+repository = "https://github.com/e-monkeys-tech/gtk4-rs-core"
 build = "build.rs"
 edition = "2018"
 

@@ -1,6 +1,6 @@
 # Cairo bindings
 
-__Rust__ bindings for Rust and wrappers for [Cairo](https://www.cairographics.org/), part of [gtk-rs-core](https://github.com/gtk-rs/gtk-rs-core).
+__Rust__ bindings for Rust and wrappers for [Cairo](https://www.cairographics.org/), part of [gtk-rs-core](https://github.com/e-monkeys-tech/gtk4-rs-core).
 
 ![screenshot](https://guillaume-gomez.fr/image/cairo.png)
 
@@ -27,8 +27,8 @@ Currently, the minimum supported Rust version is `1.54.0`.
 
 ## Documentation
 
- * [Rust API - Stable](https://gtk-rs.org/gtk-rs-core/stable/latest/docs/cairo)
- * [Rust API - Development](https://gtk-rs.org/gtk-rs-core/git/docs/cairo)
+ * [Rust API - Stable](https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/cairo)
+ * [Rust API - Development](https://e-monkeys-tech/gtk4-rs-core/git/docs/cairo)
  * [C API](https://www.cairographics.org/documentation/)
 
 ## Documentation features
@@ -53,7 +53,7 @@ If you want to track the bleeding edge, use the git dependency instead:
 
 ```toml
 [dependencies]
-cairo-rs = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "cairo-rs" }
+cairo-rs = { git = "https://github.com/e-monkeys-tech/gtk4-rs-core.git", package = "cairo-rs" }
 ```
 
 Avoid mixing versioned and git crates like this:
@@ -62,7 +62,7 @@ Avoid mixing versioned and git crates like this:
 # This will not compile
 [dependencies]
 cairo-rs = "0.13"
-cairo-rs = { git = "https://github.com/gtk-rs/gtk-rs-core.git", package = "cairo-rs" }
+cairo-rs = { git = "https://github.com/e-monkeys-tech/gtk4-rs-core.git", package = "cairo-rs" }
 ```
 
 ### See Also

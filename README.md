@@ -1,4 +1,4 @@
-# gtk-rs-core ![CI](https://github.com/gtk-rs/gtk-rs-core/workflows/CI/badge.svg)
+# gtk-rs-core ![CI](https://github.com/e-monkeys-tech/gtk4-rs-core/workflows/CI/badge.svg)
 
 The `gtk-rs` organization aims to provide safe Rust binding over `GObject`-based libraries.
 You can find more about it on <https://gtk-rs.org>.
@@ -13,7 +13,7 @@ Currently, the minimum supported Rust version is `1.54.0`.
 ## Documentation
 
 - [Examples](examples)
-- The Rust API [Stable](https://gtk-rs.org/gtk-rs-core/stable/latest/docs/) / [Development](https://gtk-rs.org/gtk-rs-core/git/docs/)
+- The Rust API [Stable](https://e-monkeys-tech/gtk4-rs-core/stable/latest/docs/) / [Development](https://e-monkeys-tech/gtk4-rs-core/git/docs/)
 
 ## Ecosystem
 
